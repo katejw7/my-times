@@ -71,6 +71,7 @@ div {
 
 .column3 {
   width: 240px;
+  flex-direction: column;
 }
 
 .headline {
@@ -120,6 +121,19 @@ div {
   color: black;
 }
 
-#newsbitesarticle span {
+#newsbitesarticle h3 {
   font-weight: bold;
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.bite {
+  display: block;
+  border-bottom: 1px solid black;
+  padding: 11px 20px;
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
 }
