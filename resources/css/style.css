@@ -60,3 +60,17 @@ div {
 .column3 {
   width: 240px;
 }
+
+.headline {
+  display: flex;
+  font-family: Georgia;
+  font-weight: bold;
+  color: white;
+  font-size: 30px;
+}
+
+.fishheadline {
+  background-image: url(../../resources/images/main-story.png);
+  height: 300px;
+  font-size: 40px;
+}
