@@ -33,7 +33,7 @@ nav span {
 }
 
 div {
-  border: 1px solid black;
+  display: block;
 }
 
 .maincontent {
@@ -53,6 +53,18 @@ div {
   width: 630px;
 }
 
+.otherstories {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 17px;
+}
+
+.minicolumn {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
 .column2 {
   width: 300px;
 }
@@ -67,10 +79,47 @@ div {
   font-weight: bold;
   color: white;
   font-size: 30px;
+  height: 300px;
 }
 
 .fishheadline {
   background-image: url(../../resources/images/main-story.png);
-  height: 300px;
   font-size: 40px;
+  font-family: Georgia;
+  font-weight: bold;
+  color: white;
+  height: 300px;
+}
+
+.earthheadline, .cameraheadline {
+  text-align: center;
+  margin-top: 15px;
+  height: 250px;
+}
+
+.earthheadline {
+  background-image: url(../../resources/images/fall-photo.png);
+}
+
+.cameraheadline {
+  background-image: url(../../resources/images/cameraman.png);
+}
+
+#orcaarticle, #burgerarticle {
+  height: 250px;
+}
+
+.catsheadline {
+  background-image: url(../../resources/images/cat-image.png);
+  margin-top: 15px;
+}
+
+.article {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+#newsbitesarticle span {
+  font-weight: bold;
 }
